@@ -1,7 +1,7 @@
 pipeline {
 
 
-   agenta any
+   agent any
    
    stages {
    
