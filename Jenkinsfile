@@ -5,24 +5,13 @@ pipeline {
    
    stages {
    
-          stage ('one'){
+          stage ('master'){
 		    steps {
-			   sleep 10
+			   echo "this is master branch 1"
 			}
 		  
 		  }
-	   stage ('two'){
-		    steps {
-			   sleep 10
-			}
-		  
-		  }
-	   stage ('three'){
-		    steps {
-			   sleep 10
-			}
-		  
-		  }
+	  
    }
 
 }
